@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rgb(0, 174, 255);
+}
+body {
+  background: #f4f4f4;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin: 2rem 0;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+  border-radius: 0.3rem;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: red;
+}
